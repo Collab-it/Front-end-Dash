@@ -7,7 +7,7 @@ const Menu = [
     name: 'Dashboard',
     href: '/dashboard'
   },
-  {
+  /*{
     title: 'Chat',
     group: 'apps',
     icon: 'chat_bubble',
@@ -97,23 +97,23 @@ const Menu = [
       {name: 'toolbar', title: 'Toolbars', component: 'components/toolbar'},
       {name: 'timeline', title: 'Timeline', component: 'components/timeline'},
     ]
-  },
+  },*/
   {
     title: 'Forms & Controls',
     group: 'forms',
     component: 'forms',
     icon: 'edit',
     items: [
-      {name: 'basic', title: 'General', href: '/forms/basic-forms'},
+     /* {name: 'basic', title: 'General', href: '/forms/basic-forms'},
       {name: 'selects', title: 'Selects', badge: 'new', href: '/forms/selects'},
       {name: 'selection-controls', title: 'Selection Controls', href: '/forms/selection-controls'},
       {name: 'text-fields', title: 'Text Fields', href: '/forms/text-fields'},
       {name: 'steppers', title: 'Steppers', href: '/forms/steppers'},
-      {name: 'editors', title: 'Editors', href: '/forms/editors'},
+      {name: 'editors', title: 'Editors', href: '/forms/editors'},*/
       { name: 'Monthly surevy', title: 'Monthly Surey', href: '/forms/monthly' },
     ]
   },
-  {divider: true},
+  /*{divider: true},
   {header: 'Extras'},
   {
     title: 'Login',
@@ -126,7 +126,7 @@ const Menu = [
     group: 'extra',
     icon: 'insert_drive_file',
     href: '/empty'
-  },
+  },*/
 ];
 // reorder menu
 Menu.forEach((item) => {
